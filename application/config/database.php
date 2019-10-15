@@ -75,13 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '127.0.0.1',
 	'username' => 'root',
-	'password' => 'ivan',
+	'password' => 'rppt',
 	'database' => 'pemetaan',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
+	'port' => 3306,
 	//'db_debug' => (ENVIRONMENT !== 'production'),
 	'db_debug' => TRUE,
 	'cache_on' => FALSE,
